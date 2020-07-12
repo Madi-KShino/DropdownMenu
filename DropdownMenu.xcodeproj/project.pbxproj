@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		DF05AF4524B4E379005F4630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF05AF4424B4E379005F4630 /* AppDelegate.swift */; };
 		DF05AF4724B4E379005F4630 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF05AF4624B4E379005F4630 /* SceneDelegate.swift */; };
-		DF05AF4924B4E379005F4630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF05AF4824B4E379005F4630 /* ViewController.swift */; };
 		DF05AF4C24B4E379005F4630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF05AF4A24B4E379005F4630 /* Main.storyboard */; };
 		DF05AF4E24B4E37B005F4630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF05AF4D24B4E37B005F4630 /* Assets.xcassets */; };
 		DF05AF5124B4E37B005F4630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF05AF4F24B4E37B005F4630 /* LaunchScreen.storyboard */; };
+		DF2A4E0624BAEF1600F4693F /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2A4E0524BAEF1600F4693F /* SlideMenuViewController.swift */; };
+		DFD2D3EC24B4EC8200708139 /* HomeMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD2D3EB24B4EC8200708139 /* HomeMenuViewController.swift */; };
+		DFD2D3EE24B4EDC800708139 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD2D3ED24B4EDC800708139 /* User.swift */; };
+		DFD2D3F224B4F2A100708139 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD2D3F124B4F2A100708139 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF05AF4124B4E379005F4630 /* DropdownMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropdownMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF05AF4424B4E379005F4630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF05AF4624B4E379005F4630 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF05AF4824B4E379005F4630 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF05AF4B24B4E379005F4630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF05AF4D24B4E37B005F4630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF05AF5024B4E37B005F4630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF05AF5224B4E37B005F4630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2A4E0524BAEF1600F4693F /* SlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
+		DFD2D3EB24B4EC8200708139 /* HomeMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMenuViewController.swift; sourceTree = "<group>"; };
+		DFD2D3ED24B4EDC800708139 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DFD2D3F124B4F2A100708139 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,34 @@
 		DF05AF4324B4E379005F4630 /* DropdownMenu */ = {
 			isa = PBXGroup;
 			children = (
-				DF05AF4424B4E379005F4630 /* AppDelegate.swift */,
-				DF05AF4624B4E379005F4630 /* SceneDelegate.swift */,
-				DF05AF4824B4E379005F4630 /* ViewController.swift */,
 				DF05AF4A24B4E379005F4630 /* Main.storyboard */,
-				DF05AF4D24B4E37B005F4630 /* Assets.xcassets */,
 				DF05AF4F24B4E37B005F4630 /* LaunchScreen.storyboard */,
-				DF05AF5224B4E37B005F4630 /* Info.plist */,
+				DFD2D3EA24B4EC4900708139 /* VIEWS */,
+				DF05AF5824B4E433005F4630 /* RESOURCES */,
+				DFD2D3ED24B4EDC800708139 /* User.swift */,
 			);
 			path = DropdownMenu;
+			sourceTree = "<group>";
+		};
+		DF05AF5824B4E433005F4630 /* RESOURCES */ = {
+			isa = PBXGroup;
+			children = (
+				DF05AF4424B4E379005F4630 /* AppDelegate.swift */,
+				DF05AF4624B4E379005F4630 /* SceneDelegate.swift */,
+				DF05AF4D24B4E37B005F4630 /* Assets.xcassets */,
+				DF05AF5224B4E37B005F4630 /* Info.plist */,
+			);
+			path = RESOURCES;
+			sourceTree = "<group>";
+		};
+		DFD2D3EA24B4EC4900708139 /* VIEWS */ = {
+			isa = PBXGroup;
+			children = (
+				DFD2D3EB24B4EC8200708139 /* HomeMenuViewController.swift */,
+				DFD2D3F124B4F2A100708139 /* CustomTableViewCell.swift */,
+				DF2A4E0524BAEF1600F4693F /* SlideMenuViewController.swift */,
+			);
+			path = VIEWS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF05AF4924B4E379005F4630 /* ViewController.swift in Sources */,
+				DFD2D3EE24B4EDC800708139 /* User.swift in Sources */,
+				DF2A4E0624BAEF1600F4693F /* SlideMenuViewController.swift in Sources */,
+				DFD2D3F224B4F2A100708139 /* CustomTableViewCell.swift in Sources */,
 				DF05AF4524B4E379005F4630 /* AppDelegate.swift in Sources */,
+				DFD2D3EC24B4EC8200708139 /* HomeMenuViewController.swift in Sources */,
 				DF05AF4724B4E379005F4630 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8MJ3MC3A9A;
-				INFOPLIST_FILE = DropdownMenu/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DropdownMenu/RESOURCES/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +332,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8MJ3MC3A9A;
-				INFOPLIST_FILE = DropdownMenu/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DropdownMenu/RESOURCES/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
